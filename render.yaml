@@ -3,8 +3,9 @@ services:
     name: data-ingestion-api
     env: node
     buildCommand: npm install
-    startCommand: npm start
+    startCommand: node src/server.js
     healthCheckPath: /health
     envVars:
       - key: NODE_ENV
         value: production
+    plan: free
