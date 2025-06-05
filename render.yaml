@@ -3,7 +3,7 @@ services:
     name: data-ingestion-api
     env: node
     buildCommand: npm install
-    startCommand: node src/server.js
+    startCommand: node server.js
     healthCheckPath: /health
     envVars:
       - key: NODE_ENV
