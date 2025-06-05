@@ -1,13 +1,13 @@
 {
   "name": "data-ingestion-api",
   "version": "1.0.0",
-  "main": "Backend/server.js",
+  "main": "src/server.js",
   "engines": {
     "node": ">=14.0.0"
   },
   "scripts": {
-    "start": "node Backend/server.js",
-    "dev": "nodemon Backend/server.js",
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
     "test": "jest --forceExit --detectOpenHandles --coverage",
     "test:watch": "jest --watchAll"
   },
